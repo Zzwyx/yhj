@@ -1,0 +1,126 @@
+html {
+    font-size: 100px;
+    height: 100%;
+    background: #f7f7f7;
+}
+
+.header {
+    width: 100%;
+    height: 1.28rem;
+    background: #fff;
+    position: relative;
+}
+
+.header .homepage {
+    font-size: .34rem;
+    display: block;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 1.28rem;
+}
+
+.header .photo {
+    position: absolute;
+    width: .42rem;
+    height: .38rem;
+    right: .3rem;
+    top: .26rem;
+    background: url("../images/icon_paizhao.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 2.86rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.content .contentTop, .content .contentBottom {
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 1.24rem;
+    line-height: 1.24rem;
+    border-bottom: .01rem solid #ddd;
+}
+
+.content i {
+    float: left;
+    width: .52rem;
+    height: .52rem;
+    margin: .36rem .2rem .36rem .24rem;
+}
+
+.content .contentTop i {
+    background: url("../images/icon_yiyouqian.png") no-repeat;
+    background-size: .44rem .50rem;
+}
+
+.content .contentBottom i {
+    background: url("../images/icon_tiemo.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .right {
+    float: right;
+    width: .12rem;
+    height: .22rem;
+    margin: -0.11rem .36rem 0 0;
+    background: url("../images/icon_jiantou.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .money {
+    float: left;
+    padding: .24rem 0 .08rem 0;
+    width: 4.4rem;
+    height: .3rem;
+    line-height: .3rem;
+    font-size: .3rem;
+    color: #333;
+}
+
+.content .enjoy {
+    width: 4.4rem;
+    float: left;
+    display: block;
+    height: .54rem;
+    line-height: .26rem;
+    padding-top: .08rem;
+    font-size: .26rem;
+    color: #777;
+}
+
+.footer .photograph {
+    margin: .84rem auto .38rem;
+    display: block;
+    width: 1.08rem;
+    height: .98rem;
+    background: url("../images/icon_xiangji_gery.png") no-repeat;
+    background-size: 1.08rem .98rem;
+}
+
+.footer .btn {
+    display: block;
+    margin: 0 auto 1.72rem;
+    width: 3.82rem;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .28rem;
+    color: #fff;
+    border-radius: .08rem;
+    background: #00b2cb;
+    border-style: none;
+    text-align: center;
+}
